@@ -1,55 +1,38 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+# Physical-AI-And-Humanoid-Robotics Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### I. Clarity & Simplicity
+Every component and feature should be as simple as possible, easy to understand, and maintain. Avoid unnecessary complexity.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### II. Modularity & Reusability
+Design for modularity, ensuring components are self-contained and reusable across different parts of the project or future projects.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### III. Test-Driven Development (TDD)
+All new features and bug fixes must be developed using a Test-Driven Development approach. Tests should be written before implementation, fail, then pass once the code is written, and then refactored.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### IV. Performance & Efficiency
+Prioritize performance and resource efficiency in all designs and implementations. Code should be optimized for speed and minimal resource consumption.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### V. Security by Design
+Incorporate security considerations from the initial design phase. All components must be developed with robust security measures to prevent vulnerabilities.
 
-### [PRINCIPLE_6_NAME]
+### VI. Observability
+Implement comprehensive logging, metrics, and tracing to ensure the system's behavior can be easily monitored, debugged, and understood in production.
 
+## Additional Constraints
 
-[PRINCIPLE__DESCRIPTION]
+- **Technology Stack**: Prefer open-source technologies where feasible and aligned with project goals.
+- **Documentation**: All public APIs, significant design decisions, and complex logic must be documented clearly.
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
+## Development Workflow
 
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
-
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
-
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+- **Code Review**: All code changes must undergo a thorough code review process by at least one other developer.
+- **Automated Testing**: Continuous Integration must include automated unit, integration, and end-to-end tests.
+- **Deployment**: Deployments should be automated and follow a defined release process with clear rollback strategies.
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
+Constitution supersedes all other practices; Amendments require documentation, approval, and a migration plan. All Pull Requests (PRs) and code reviews must verify compliance with these principles. Complexity must always be justified.
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+**Version**: 1.0.0 | **Ratified**: 2025-11-30 | **Last Amended**: 2025-11-30
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
