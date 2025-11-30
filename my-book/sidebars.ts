@@ -40,7 +40,6 @@ const sidebars: SidebarsConfig = {
       type: 'category',
       label: 'Advanced Concepts',
       items: [
-        'category/advanced/reinforcement-learning-in-robotics',
         'category/advanced/human-robot-interaction',
       ],
     },
