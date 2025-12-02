@@ -15,14 +15,14 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://panaversity.github.io',
+  url: 'https://NaziaImran786.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/Physical-AI-And-Humanoid-Robotics/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'Panaversity', // Usually your GitHub org/user name.
+  organizationName: 'NaziaImran786', // Usually your GitHub org/user name.
   projectName: 'Physical-AI-And-Humanoid-Robotics', // Usually your repo name.
 
   onBrokenLinks: 'throw',
@@ -89,7 +89,7 @@ const config: Config = {
           to: '/docs/intro',
         },
         {
-          href: 'https://github.com/Panaversity/Physical-AI-And-Humanoid-Robotics',
+          href: 'https://github.com/NaziaImran786/Physical-AI-And-Humanoid-Robotics/',
           label: 'GitHub',
           position: 'right',
         },
