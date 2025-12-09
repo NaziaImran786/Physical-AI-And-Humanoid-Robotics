@@ -1,3 +1,16 @@
+<!--
+Sync Impact Report:
+Version change: 1.0.1 → 1.0.2
+Modified principles: None
+Added sections: None
+Removed sections: None
+Templates requiring updates:
+- .specify/templates/plan-template.md: ✅ updated
+- .specify/templates/spec-template.md: ✅ updated
+- .specify/templates/tasks-template.md: ✅ updated
+- .specify/templates/commands/sp.constitution.md: ✅ updated
+Follow-up TODOs: None
+-->
 # Physical-AI-And-Humanoid-Robotics Constitution
 
 ## Core Principles
@@ -20,6 +33,9 @@ Incorporate security considerations from the initial design phase. All component
 ### VI. Observability
 Implement comprehensive logging, metrics, and tracing to ensure the system's behavior can be easily monitored, debugged, and understood in production.
 
+### VII. External Service Integration & AI Responsibility
+When integrating external services, including AI models and databases, prioritize secure and resilient integration patterns. Ensure data privacy, ethical AI use, and responsible handling of all external dependencies.
+
 ## Additional Constraints
 
 - **Technology Stack**: Prefer open-source technologies where feasible and aligned with project goals.
@@ -34,5 +50,4 @@ Implement comprehensive logging, metrics, and tracing to ensure the system's beh
 ## Governance
 Constitution supersedes all other practices; Amendments require documentation, approval, and a migration plan. All Pull Requests (PRs) and code reviews must verify compliance with these principles. Complexity must always be justified.
 
-**Version**: 1.0.0 | **Ratified**: 2025-11-30 | **Last Amended**: 2025-11-30
-
+**Version**: 1.0.2 | **Ratified**: 2025-11-30 | **Last Amended**: 2025-12-05

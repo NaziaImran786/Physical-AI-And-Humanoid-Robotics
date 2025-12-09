@@ -4,27 +4,85 @@
  * work well for content-centric websites.
  */
 
-/* You can override the default Infima variables here. */
+/* Docusaurus Infima Variables (Don't change this section unless necessary) */
 :root {
   --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
+/* Dark Mode Infima Variables */
 [data-theme='dark'] {
   --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* --- CHATBOT GLOBAL STYLING --- */
+
+/* Main Chatbot container (Float bottom right) */
+.chatbot-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 350px; /* Chat window size */
+    height: 500px;
+    background-color: var(--ifm-background-color);
+    border: 1px solid var(--ifm-color-primary-light);
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    z-index: 1000;
+    overflow: hidden;
+    /* Transition for opening/closing */
+    transition: all 0.3s ease-in-out; 
+}
+
+/* Chatbot is closed (Hidden state) */
+.chatbot-closed {
+    width: 60px;
+    height: 60px;
+    border: none;
+    box-shadow: none;
+    /* Content hidden */
+    visibility: hidden;
+    opacity: 0;
+}
+
+/* Icon Button Styling */
+.chatbot-toggle-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: var(--ifm-color-primary);
+    color: white;
+    font-size: 24px;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    z-index: 1001;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s;
+}
+
+.chatbot-toggle-button:hover {
+    background-color: var(--ifm-color-primary-dark);
+}
+
+/* Message Text Visibility Fix (for both light and dark mode) */
+.chatbot-message-text {
+    /* Text color for chat messages */
+    color: var(--ifm-font-color-base) !important; 
+}
+
+/* Input Field Styling */
+.chatbot-input-field {
+    color: var(--ifm-font-color-base) !important; /* Text color in input */
+    background-color: var(--ifm-background-color) !important;
+    border-top: 1px solid var(--ifm-color-emphasis-400); 
 }
