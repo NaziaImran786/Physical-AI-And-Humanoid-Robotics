@@ -2,7 +2,7 @@
 
 **Purpose**: Validate specification completeness and quality before proceeding to planning
 **Created**: 2025-12-03
-**Feature**: [specs/002-rag-chatbot-integration/spec.md](specs/002-rag-chatbot-integration/spec.md)
+**Feature**: [Link to spec.md](specs/002-rag-chatbot/spec.md)
 
 ## Content Quality
 

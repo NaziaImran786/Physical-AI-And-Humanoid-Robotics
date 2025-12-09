@@ -1,4 +1,4 @@
-      # Specification Quality Checklist: Docusaurus Textbook Setup
+# Specification Quality Checklist: Docusaurus Textbook Setup
 
       **Purpose**: Validate specification completeness and quality before proceeding to planning
       **Created**: 2025-11-30

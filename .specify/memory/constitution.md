@@ -1,8 +1,8 @@
 <!--
 Sync Impact Report:
-Version change: 1.0.0 → 1.0.1
+Version change: 1.0.1 → 1.0.2
 Modified principles: None
-Added sections: VII. External Service Integration & AI Responsibility
+Added sections: None
 Removed sections: None
 Templates requiring updates:
 - .specify/templates/plan-template.md: ✅ updated
@@ -50,4 +50,4 @@ When integrating external services, including AI models and databases, prioritiz
 ## Governance
 Constitution supersedes all other practices; Amendments require documentation, approval, and a migration plan. All Pull Requests (PRs) and code reviews must verify compliance with these principles. Complexity must always be justified.
 
-**Version**: 1.0.1 | **Ratified**: 2025-11-30 | **Last Amended**: 2025-12-03
+**Version**: 1.0.2 | **Ratified**: 2025-11-30 | **Last Amended**: 2025-12-05
