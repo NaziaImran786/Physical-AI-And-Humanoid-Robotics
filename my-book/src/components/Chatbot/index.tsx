@@ -4,7 +4,7 @@ import React, { useState, useCallback, useMemo } from 'react';
 import axios from 'axios';
 
 // FastAPI Server URL (jo 8000 par chal raha hai)
-const API_URL = 'http://127.0.0.1:8000/api/chat';
+const API_URL = 'https://huggingface.co/spaces/naziaimran/robotics-chatbot-api/api/chat';
 
 // Simple Message Component
 const Message: React.FC<{ sender: 'user' | 'bot'; text: string }> = ({ sender, text }) => {
